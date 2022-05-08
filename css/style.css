@@ -1,8 +1,56 @@
 .navbar{
    box-shadow:0 0 3px 0 ;
    padding: 0px 20px;
+   
 }
 .nav-item{
 padding:0px 10px;
+z-index:  1 ;
+}
+
+
+.container{
+   margin-top: 7em;
+   width: 100%;
+}
+
+.maintxt {
+   
+   background-image: url("strength.png");
+   background-size: cover;
+   height: 370px;
+   width: 370px;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
+#strength{
+   position: relative;
+  color: white;
+  top: 15px;
+  left:15px;
+  font-size: 2em;
+}
+.secondmaintxt{
+   background-image: url("yoga.png");
+   background-size: cover;
+   height: 370px;
+   width: 370px;
+   
+}
+.thirdmaintxt{
+   background-image: url("running.png");
+   background-size: cover;
+   height: 370px;
+   width: 370px;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+}
+
+#yoga{
+   color:black;
+   position: relative;
+   top: 15px;
+   left:15px;
+   font-size:2em;
 }
 
