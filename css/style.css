@@ -54,3 +54,31 @@ z-index:  1 ;
    font-size:2em;
 }
 
+@media only screen and (max-width: 768px) {
+  
+   .maintxt {
+   
+      background-image: url("strength.png");
+      background-size: cover;
+      height: 370px;
+      width: 100%;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+   }
+   .secondmaintxt{
+      background-image: url("yoga.png");
+      background-size: cover;
+      height: 370px;
+      width: 100%;
+      
+   }
+   
+   .thirdmaintxt{
+      background-image: url("running.png");
+      background-size: cover;
+      height: 370px;
+      width: 100%;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+   }
+ }

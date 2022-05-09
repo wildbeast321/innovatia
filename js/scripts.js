@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    var resolution=$(window).width();
+    if(resolution>768){
     $(".maintxt").mouseenter(function(){
         $(".maintxt").animate({           
             width: '50%'
@@ -65,4 +67,5 @@ $(document).ready(function(){
             width: '30.33%'
         });
     });
+}
 });
