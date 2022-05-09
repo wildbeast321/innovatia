@@ -19,7 +19,7 @@ z-index:  1 ;
    background-image: url("strength.png");
    background-size: cover;
    height: 370px;
-   width: 370px;
+   width: 33.33%;
    border-top-left-radius: 25px;
    border-bottom-left-radius: 25px;
 }
@@ -34,14 +34,14 @@ z-index:  1 ;
    background-image: url("yoga.png");
    background-size: cover;
    height: 370px;
-   width: 370px;
+   width: 33.33%;
    
 }
 .thirdmaintxt{
    background-image: url("running.png");
    background-size: cover;
    height: 370px;
-   width: 370px;
+   width: 33.33%;
    border-top-right-radius: 25px;
    border-bottom-right-radius: 25px;
 }

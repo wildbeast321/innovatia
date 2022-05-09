@@ -1,68 +1,68 @@
 $(document).ready(function(){
     $(".maintxt").mouseenter(function(){
         $(".maintxt").animate({           
-            width: '500px'
+            width: '50%'
         });  
         $(".secondmaintxt").animate({           
-            width: '320px'
+            width: '25%'
         });
         $(".thirdmaintxt").animate({           
-            width: '310px'
+            width: '25%'
         });
     }); 
     $(".maintxt").mouseleave(function(){
         $(".maintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });  
         $(".secondmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         }); 
         $(".thirdmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });
     });
     $(".secondmaintxt").mouseenter(function(){
         $(".secondmaintxt").animate({           
-            width: '500px'
+            width: '50%'
         });  
         $(".maintxt").animate({           
-            width: '320px'
+            width: '25%'
         });
         $(".thirdmaintxt").animate({           
-            width: '310px'
+            width: '25%'
         });
     }); 
     $(".secondmaintxt").mouseleave(function(){
         $(".secondmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });  
         $(".maintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         }); 
         $(".thirdmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });
     });
     $(".thirdmaintxt").mouseenter(function(){
         $(".thirdmaintxt").animate({           
-            width: '500px'
+            width: '50%'
         });  
         $(".secondmaintxt").animate({           
-            width: '320px'
+            width: '25%'
         });
         $(".maintxt").animate({           
-            width: '310px'
+            width: '25%'
         });
     }); 
     $(".thirdmaintxt").mouseleave(function(){
         $(".thirdmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });  
         $(".secondmaintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         }); 
         $(".maintxt").animate({           
-            width: '370px'
+            width: '33.33%'
         });
     });
 });
