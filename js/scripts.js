@@ -4,21 +4,21 @@ $(document).ready(function(){
             width: '50%'
         });  
         $(".secondmaintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
         $(".thirdmaintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
     }); 
     $(".maintxt").mouseleave(function(){
         $(".maintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });  
         $(".secondmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         }); 
         $(".thirdmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });
     });
     $(".secondmaintxt").mouseenter(function(){
@@ -26,21 +26,21 @@ $(document).ready(function(){
             width: '50%'
         });  
         $(".maintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
         $(".thirdmaintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
     }); 
     $(".secondmaintxt").mouseleave(function(){
         $(".secondmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });  
         $(".maintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         }); 
         $(".thirdmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });
     });
     $(".thirdmaintxt").mouseenter(function(){
@@ -48,21 +48,21 @@ $(document).ready(function(){
             width: '50%'
         });  
         $(".secondmaintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
         $(".maintxt").animate({           
-            width: '25%'
+            width: '23%'
         });
     }); 
     $(".thirdmaintxt").mouseleave(function(){
         $(".thirdmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });  
         $(".secondmaintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         }); 
         $(".maintxt").animate({           
-            width: '33.33%'
+            width: '30.33%'
         });
     });
 });
